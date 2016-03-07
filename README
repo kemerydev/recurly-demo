@@ -2,21 +2,21 @@ Recurly Coding exercise round (due 3/7/2016)
 Kevin R. Emery (fulvius@gmail.com)
 
 This example is intended to run in a *nix compatible shell
-First install Ruby (> 1.9) and RubyGems
-
-From the 'recurly' directory 
+Install Ruby (> 1.9) and RubyGems
+Then, from the 'recurly' directory 
   gem install bundler
   bundle install
 
+to run all tests from the 'recurly' directory:
+./run_examples.sh
 
 To run the UI Automation from the 'selenium' directory:
 rspec spec/views/accounts.rb
 
-
-
+To run API automation from the 'api_tests' directory:
+rspec recurly_accounts_api.rb
 
 Acknowledgements:
 https://robots.thoughtbot.com/how-we-test-rails-applications
 https://semaphoreci.com/community/tutorials/working-effectively-with-data-factories-using-factorygirl
 http://www.sitepoint.com/model-web-pages-with-the-page-object-pattern/
-http://stackoverflow.com/questions/735073/best-way-to-require-all-files-from-a-directory-in-ruby
