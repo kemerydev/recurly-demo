@@ -1,5 +1,4 @@
 source 'http://rubygems.org'
-gem 'pry'
 gem 'selenium-webdriver'
 gem 'watir-webdriver'
 gem 'rspec'
