@@ -4,13 +4,14 @@ Kevin R. Emery (fulvius@gmail.com)
 This example is intended to run in a *nix compatible shell
 First install Ruby (> 1.9) and RubyGems
 
-From the 'test_automation' directory 
+From the 'recurly' directory 
   gem install bundler
   bundle install
 
 
-To run the UI Automation from the 'test_automation' directory:
-  rspec spec/views/accounts.rb
+To run the UI Automation from the 'selenium' directory:
+rspec spec/views/accounts.rb
+
 
 
 
