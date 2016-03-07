@@ -1,0 +1,7 @@
+source 'http://rubygems.org'
+gem 'pry'
+gem 'selenium-webdriver'
+gem 'watir-webdriver'
+gem 'rspec'
+gem 'page_object'
+gem 'factory_girl'
